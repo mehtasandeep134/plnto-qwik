@@ -2,6 +2,11 @@
   "name": "my-qwik-basic-starter",
   "description": "App with Routing built-in (recommended)",
   "private": true,
+   "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
